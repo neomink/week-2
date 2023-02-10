@@ -1,0 +1,164 @@
+.my-button {
+    background-color: #257FD5; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border-color: orangered;
+    border-width: 10px;
+}
+
+blockquote {
+    font-size: 24pt;
+    border-left: 3px;
+}
+
+.class-1 .class-2 {
+    color:limegreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32pt;
+}
+
+p>strong {
+    color: pink;
+}
+
+li>ul {
+    color: blue;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+a:focus {
+    text-decoration:line-through;
+}
+
+.first-last>li:first-child {
+    background-color: lightblue;
+}
+
+.first-last>li:last-child {
+    background-color: lightcoral;
+}
+
+.prompt20 {
+    color: tan;
+}
+
+.prompt21 {
+    color: #D2B48C;
+}
+
+.prompt22 {
+    color: rgb(210,180,140);
+}
+
+.prompt23 {
+    color: hsl(34, 44%, 69%)
+}
+
+.prompt25 {
+    color: crimson;
+}
+
+.prompt26-box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    background-image: url(https://media.villagepreservation.org/wp-content/uploads/2020/05/15052757/Better-David-Byrne.jpg);
+}
+.prompt27-box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    background-image: url(https://media.villagepreservation.org/wp-content/uploads/2020/05/15052757/Better-David-Byrne.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+.prompt29-box {
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    box-shadow: 10px 5px 5px blue;
+    border-radius: 30px;
+    margin: 100px;
+    background-image: url(https://media.villagepreservation.org/wp-content/uploads/2020/05/15052757/Better-David-Byrne.jpg);
+}
+
+.prompt30-box {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.invisible-ink>span {
+    opacity: 0%;
+}
+
+.invisible-ink>span:hover {
+    opacity: 100%;
+}
+
+.invisible-ink-2>span {
+    color: white;
+    background-color: white;
+    transition: color 500ms ease;
+}
+
+.invisible-ink-2>span:hover {
+    background-color: red;
+}
+
+.ebay:nth-child(1) {
+    color:#e52f35;
+}
+.ebay:nth-child(2) {
+    color:#0064d3;
+}
+.ebay:nth-child(3) {
+    color:#f5b000;
+}
+.ebay:nth-child(4) {
+    color:#87b90f;
+}
+.ebay {
+    letter-spacing: -8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32pt;
+}
+
+.prompt34 {
+    transform: translate(12px, 50%);
+    transform: rotate(0.5turn);
+}
+
+.mbm-container {
+    background-color:white;
+
+}
+
+.prompt35-mbm {
+    mix-blend-mode: difference;
+}
+
+.prompt35-blur{
+    filter: blur(10px);
+}
+
+.prompt35-grayscale {
+    filter: grayscale(100%);
+}
+
+.prompt35-saturate {
+    filter: saturate(400%);
+}
